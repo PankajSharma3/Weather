@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="icon" href="clear.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="search">
+            <input type="text" id="cityInput" placeholder="Enter the city" value="London">
+            <div class="ico">
+                <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 30 30" fill="none">
+                    <path d="M17.5 17.5L22 22" stroke="#000000" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M20 11C20 6.02944 15.9706 2 11 2C6.02944 2 2 6.02944 2 11C2 15.9706 6.02944 20 11 20C15.9706 20 20 15.9706 20 11Z" stroke="#000000" stroke-width="3" stroke-linejoin="round"/>
+                </svg>
+            </div>
+        </div>
+        <div class="logo">
+            <img src="clear.png" id="photo">
+        </div>
+        <div class="temp">
+            <h1 id="temp">22°C</h1>
+            <h2 id="city">London</h2>
+        </div>
+        <div class="detail">
+            <div>
+                <img src="humidity.png">
+                    <p id="humidity">64%</p>
+                    <h3>Humidity</h3>
+            </div>
+            <div class="speed">
+                <img src="wind.png">
+                    <p id="spd">18km/h</p>
+                    <h3>Wind Speed</h3>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
