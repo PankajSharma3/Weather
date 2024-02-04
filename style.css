@@ -42,8 +42,9 @@ body{
     border-radius: 70px;
 }
 .logo{
+    justify-content: center;
+    display: flex;
     align-items: center;
-    margin-left: 65px;
 }
 .temp{
     color: aliceblue;
